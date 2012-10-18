@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright 2008-2010, UGR Works Limited.
+ * Copyright 2008-2012, UGR Works Limited.
  *
- * @copyright    Copyright 2008-2010, UGR Works Limited
- * @license      http://www.ugrworks.com/license UGR Works Commercial License
+ * @copyright    Copyright 2008-2012, UGR Works Limited
+ * @license      http://www.opensource.org/licenses/mit-license.php MIT
  */
 App::uses('Sanitize', 'Utility');
 
