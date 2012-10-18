@@ -1,0 +1,1 @@
+<pre><?php echo $log['Log']['message']; ?></pre>
