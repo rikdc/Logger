@@ -1,6 +1,3 @@
-<?php echo $this->Html->addCrumb(__('System Manager'), array('controller' => 'dashboards')); ?>
-<?php echo $this->Html->addCrumb(__('Logs'), null); ?>
-
 <div class="paginator">
 <?php echo $this->Paginator->counter(array(
             'format' => 'Showing records %start% to %end% of %count%'
