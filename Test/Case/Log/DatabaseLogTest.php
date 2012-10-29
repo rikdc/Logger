@@ -10,9 +10,9 @@
 App::uses('DatabaseLog', 'Logger.Log/Engine');
 
 /**
- * CakeLogTest class
+ * DatabaseLogTest class
  *
- * @package       Cake.Test.Case.Log.Engine
+ * @package       Logger.Test.Case.Log.Engine
  */
 class DatabaseLogTest extends CakeTestCase
 {
