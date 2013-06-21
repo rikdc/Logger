@@ -17,5 +17,7 @@ Develop branch is UNSTABLE and used to test new features before releasing them.
 
 Copyright 2009-2012, [UGR Works Limited](http://ugrworks.com)
 
+Includes code from [Ceeram](https://github.com/ceeram/EmailLogger)
+
 Licensed under [The MIT License](http://www.opensource.org/licenses/mit-license.php)<br/>
 Redistributions of files must retain the above copyright notice.
