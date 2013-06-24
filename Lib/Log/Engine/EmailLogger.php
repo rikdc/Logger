@@ -20,7 +20,7 @@ class EmailLogger implements CakeLogInterface {
         if (empty($levels) || in_array($type, $levels)) {
             if ($duplicates || (!$duplicates && strpos(file_get_contents($file), $message) === false)) {
                 try {
-                    CakeEmail::deliver($to, 'An error has occurred: ' . $type, $message, $email);
+                    CakeEmail::deliver(null, 'An error has occurred: ' . $type, $message, $email);
                     if (!$duplicates) {
                         $output = $message . "\n";
                         file_put_contents($file, $output, FILE_APPEND);

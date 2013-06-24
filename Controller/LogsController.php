@@ -14,9 +14,10 @@ class LogsController extends AppController
     public $paginate = array(
         'Log' => array(
             'limit' => 30,
-            'order' => 'created DESC'
+            'order' => 'created DESC',
             'conditions' => array(
-                'Log.type_id <>' => 7)
+                'Log.type_id <>' => 7
+            )
         )
     );
 
