@@ -2,4 +2,5 @@
 
 class Log extends AppModel
 {
+
 }

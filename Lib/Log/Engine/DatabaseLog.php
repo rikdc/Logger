@@ -26,7 +26,7 @@ class DatabaseLog implements CakeLogInterface
 {
     private function _setup_model() {
         $this->_model = ClassRegistry::init(array(
-            'class' => 'Log'
+            'class' => 'Logger.Log'
         ));
     }
 
